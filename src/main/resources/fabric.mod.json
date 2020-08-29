@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "self-destructor",
+  "version": "${version}",
+  "name": "Self-destructor",
+  "description": "A mod that deletes itself when you open Minecraft.",
+  "authors": [
+    "sjx233"
+  ],
+  "contact": {
+    "sources": "https://github.com/sjx233/self-destructor"
+  },
+  "license": "MIT",
+  "entrypoints": {
+    "preLaunch": [
+      "io.github.sjx233.selfdestructor.SelfDestructor"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
